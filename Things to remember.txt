@@ -1,0 +1,34 @@
+The Boston dataset contains the following attributes:
+
+CRIM: Per capita crime rate by town
+ZN: Proportion of residential land zoned for lots over 25,000 sq. ft.
+INDUS: Proportion of non-retail business acres per town
+CHAS: Charles River dummy variable (1 if the tract bounds the river, 0 otherwise)
+NOX: Nitric oxides concentration (parts per 10 million)
+RM: Average number of rooms per dwelling
+AGE: Proportion of owner-occupied units built before 1940
+DIS: Weighted distances to five Boston employment centers
+RAD: Index of accessibility to radial highways
+TAX: Full-value property tax rate per $10,000
+PTRATIO: Pupil-to-teacher ratio by town
+B: 1000(Bk - 0.63)^2 where Bk is the proportion of Black individuals by town
+LSTAT: % lower status of the population
+MEDV: Median value of owner-occupied homes in $1000s.
+
+
+In the Boston dataset, the most important features are usually determined by their correlation with the target variable (MEDV - Median value of owner-occupied homes in $1000s). Features with higher correlation values have a stronger influence on the target variable. Here are some of the most important features based on their correlation with MEDV:
+
+RM (Average number of rooms per dwelling): Positively correlated with MEDV. As the number of rooms increases, the value of the property tends to rise.
+
+LSTAT (% lower status of the population): Negatively correlated with MEDV. Areas with a higher percentage of lower status population tend to have lower property values.
+
+PTRATIO (Pupil-to-teacher ratio by town): Negatively correlated with MEDV. A lower pupil-to-teacher ratio may indicate better schools and higher property values.
+
+As for the correlation values:
+
+RM has a positive correlation with MEDV, typically around 0.7 to 0.8.
+LSTAT has a negative correlation with MEDV, usually around -0.7 to -0.8.
+PTRATIO has a negative correlation with MEDV, often around -0.5 to -0.6.
+
+
+CHAS is a binary attribute in the Boston dataset that represents whether a town borders the Charles River. It takes a value of 1 if the tract bounds the river and 0 otherwise.
