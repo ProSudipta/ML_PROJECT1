@@ -9,7 +9,6 @@ Welcome to the "Real Estate Price Prediction Using Machine Learning" project rep
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [License](#license)
 - [Visualizations](#visualizations)
 
 ## About
@@ -69,5 +68,23 @@ The scatter matrix visualizes the pairwise relationships between important attri
 
 This scatter plot illustrates the relationship between the average number of rooms per dwelling (RM) and the median property value (MEDV).
 
-*Note: The visualizations are available in the `visualization/` directory.*
+## Output Interface
+
+Here are visualizations of the output interface of the web application:
+
+### Input Page
+![image](https://github.com/ProSudipta/ML_PROJECT1/assets/105074592/acaf0632-c8ce-4e4c-b88e-7c6a02610873)
+![image](https://github.com/ProSudipta/ML_PROJECT1/assets/105074592/324124a8-f297-4de5-be4d-3ff96edec896)
+
+
+*Description: Fill the input values within the given range.
+
+### Prediction Result
+![image](https://github.com/ProSudipta/ML_PROJECT1/assets/105074592/d55de17d-2d1a-4518-a8fd-30768d90c99d)
+![image](https://github.com/ProSudipta/ML_PROJECT1/assets/105074592/561267d2-65e8-4b7d-98ad-28061558bb53)
+
+
+*Description: After filling the input you will get the desired output.
+
+
 
